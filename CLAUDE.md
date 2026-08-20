@@ -12,4 +12,8 @@ needed to package and publish it well.
 - output/ : finished packets land here, one file per piece of content
 
 ## How we make a packet
-(completed during the video)
+1. Read the source content and channel-context.md before doing anything else
+2. A packet contains, in this order: ranked title options, description,
+   chapters, hashtags, tags, thumbnail text ideas
+3. Save every packet to output/ named packet-YYYY-MM-DD-short-slug.md
+4. Never publish, post, or send anything. This project prepares; a human publishes.

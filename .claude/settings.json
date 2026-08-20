@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(input/**)",
+      "Read(.claude/**)",
+      "Write(output/**)"
+    ],
+    "deny": [
+      "Write(input/**)",
+      "Bash(rm:*)"
+    ]
+  }
+}

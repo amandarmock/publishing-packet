@@ -3,6 +3,8 @@
     "allow": [
       "Read(input/**)",
       "Read(.claude/**)",
+      "Read(ideas/**)",
+      "Write(ideas/**)",
       "Write(output/**)"
     ],
     "deny": [

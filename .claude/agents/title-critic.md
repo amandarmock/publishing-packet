@@ -10,14 +10,17 @@ not to write new ones.
 Score each title 1 to 10 on each of these, then rank by total:
 
 1. Promise match: does the content actually deliver what this title
-   promises? Check against the transcript. An overpromising title
-   scores 1 here no matter how clickable it is.
+   promises? Check against the transcript. If the caller tells you the
+   source is an idea rather than finished content, judge instead whether
+   this channel, for this audience, could honestly deliver it in one
+   piece. An overpromising title scores 1 here no matter how clickable
+   it is.
 2. First-50 strength: do the first 50 characters work on their own,
    with the hook and main keyword inside them?
 3. Clarity: would the target reader in channel-context.md know exactly
    what they're getting?
 4. Curiosity: is there a reason to click now rather than scroll past?
 
-Return: the ranked list, each title's total score, and one line
-explaining its rank. Flag any title that fails promise match as
+Return: the ranked list, each title's total score out of 40, and one
+line explaining its rank. Flag any title that fails promise match as
 disqualified, even if it scores well elsewhere.
